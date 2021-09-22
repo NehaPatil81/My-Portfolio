@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #374151;
+    --off-white: #F3F4F6;
+    --dark-grey: #9CA3AF;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 4rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding: 0rem 2rem;
+}
+
+.centered-container {
+    max-width: 80%px;
+    margin: auto;
+    text-align: center;
+}
+
+.link {
+    padding: 0.5rem 1rem;
+    
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+    display: inline-block;
+    margin: 0.5rem;
+    text-decoration: none;
+
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.list-non-bullets {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline-block;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.navigation .link {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 80%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero .hero-img {
+   align-self: center;
+    max-width: 50%;
+    display: block;
+    margin: 1.5rem;
+}
+
+.hero .projects-img {
+    max-width: 450px;
+    padding-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.hero .blogs-img {
+    max-width: 375px;
+    padding-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.hero .hero-header {
+    padding: 3rem;
+    font-size: 1rem;
+    margin: 1rem;
+  
+}
+.section {
+  max-width: 80%;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.offwhite{
+    background-color: var(--off-white);
+}
+
+#footer {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+#footer i {
+    color: white;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+#footer ul {
+    padding-inline-start: 0px;
+}
+
+.iconify {
+    font-size: 40px;
+    margin: 0 1rem;
+    color: #FFFFFF;
+}
+
